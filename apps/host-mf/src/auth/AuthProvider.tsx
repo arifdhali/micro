@@ -12,14 +12,14 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         name: "test"
     }
     useEffect(() => {
-        setUser(payload);
+        setUser(null);
     }, [])
 
     async function logout() {
 
     }
     return (
-        <AuthContext value={{ user, isLoading, isAuthenticated: !!user, logout }}>
+        <AuthContext value={{ user, isLoading: false, isAuthenticated: !!user, logout }}>
             {children}
         </AuthContext >
     )

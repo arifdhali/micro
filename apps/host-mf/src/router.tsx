@@ -15,7 +15,10 @@ export const APP_URL = {
         url: "/"
     },
     product: {
-        url: "/products"
+        url: "/products",
+    },
+    category: {
+        url: "/category"
     },
     auth: {
         url: "/auth",

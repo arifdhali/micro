@@ -1,4 +1,5 @@
- import {
+import { APP_URL } from "@/router";
+import {
   ArrowRight,
   ChevronRight,
   Star,
@@ -8,6 +9,7 @@
   Headset,
   BadgeCheck,
 } from "lucide-react";
+import { Link } from "react-router";
 const HomePage = () => {
   return (
     <>
@@ -41,7 +43,7 @@ const HomePage = () => {
         <h2 className="font-headline-lg text-headline-md md:text-headline-lg text-on-surface mb-12">Select Category</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-gutter">
 
-          <a className="group relative h-80 rounded overflow-hidden glass-panel flex items-end p-6 border border-white/5 hover:border-primary/50 transition-all duration-500" href="#">
+          <Link to={APP_URL.product.url} className="group relative h-80 rounded overflow-hidden glass-panel flex items-end p-6 border border-white/5 hover:border-primary/50 transition-all duration-500" href="#">
             <div className="absolute inset-0 z-0 transition-transform duration-700 group-hover:scale-105">
               <div className="bg-cover bg-center w-full h-full opacity-40 group-hover:opacity-60 transition-opacity" data-alt="Close-up macro photography of high-end wireless over-ear headphones. The earcups feature a brushed gunmetal finish with intricate micro-perforations. A faint blue LED ring glows around the exterior shell. The setting is dark and moody, with soft, directional light revealing the premium textures of the leather earpads and metal headband, embodying a sophisticated tech noir style."
                 style={{
@@ -55,7 +57,7 @@ const HomePage = () => {
               <h3 className="font-headline-md text-headline-md text-on-surface">Audio</h3>
               <ArrowRight className="size-4 text-primary opacity-0 group-hover:opacity-100 transform translate-x-[-10px] group-hover:translate-x-0 transition-all duration-300" />
             </div>
-          </a>
+          </Link>
 
           <a className="group relative h-80 rounded overflow-hidden glass-panel flex items-end p-6 border border-white/5 hover:border-primary/50 transition-all duration-500" href="#">
             <div className="absolute inset-0 z-0 transition-transform duration-700 group-hover:scale-105">

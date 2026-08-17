@@ -13,8 +13,9 @@ import {
   List,
   Star,
 } from "lucide-react";
+import Product3DViewer from "./components/Product3DViewer";
 
- 
+
 
 const products = [
   {
@@ -60,9 +61,9 @@ const brands = [
 ];
 
 export default function ProductPage() {
-   
- 
-  
+
+
+
   return (
     <section className="py-24 max-w-container-max mx-auto   relative">
 
@@ -341,6 +342,9 @@ export default function ProductPage() {
           </div>
         </div>
       </div>
+
+      <Product3DViewer />
+
     </section>
   );
 }

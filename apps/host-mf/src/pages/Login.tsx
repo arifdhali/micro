@@ -22,9 +22,9 @@ export default function Login() {
 
       {/* Header */}
       <div className="text-center mb-10">
-        <h1 className="font-display-lg text-headline-lg-mobile md:text-headline-lg text-primary tracking-tighter mb-2">
+        <Link to={APP_URL.home.url} className="font-display-lg text-headline-lg-mobile md:text-headline-lg text-primary tracking-tighter mb-2">
           KINETIC NOIR
-        </h1>
+        </Link>
 
         <p className="font-body-md text-body-md text-on-surface-variant">
           ENGINEERED FOR THE FUTURE
