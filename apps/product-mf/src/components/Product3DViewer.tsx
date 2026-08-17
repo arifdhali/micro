@@ -28,7 +28,7 @@ useGLTF.preload(modelURL);
 
 export default function Product3DViewer() {
   return (
-    <div className="h-[600px] w-full overflow-hidden rounded-2xl bg-gradient-to-br from-[#fff] via-[#fff] to-[#333535]">
+    <div className="h-[700px] w-full overflow-hidden rounded-2xl bg-[#333535]">
 
       <Canvas
         camera={{
@@ -45,6 +45,8 @@ export default function Product3DViewer() {
         <Suspense fallback={<Html center>
           <Loader />
         </Html>}>
+          <Environment preset="dawn" />
+
           <ProductModel />
         </Suspense>
         <OrbitControls
