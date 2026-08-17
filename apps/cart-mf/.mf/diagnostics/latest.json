@@ -1,0 +1,10 @@
+{
+  "latestErrorEvent": {
+    "code": "TYPE-001",
+    "message": "Failed to generate type declaration. Execute the below cmd to reproduce and fix the error. #TYPE-001\nargs: {\"cmd\":\"\\\"C:\\\\\\\\Program Files\\\\\\\\nodejs\\\\\\\\node.exe\\\" E:\\\\Arif\\\\micro-store\\\\cart-mf\\\\node_modules\\\\typescript\\\\bin\\\\tsc --project E:\\\\Arif\\\\micro-store\\\\cart-mf\\\\node_modules\\\\.federation\\\\tsconfig.c7722e290863218d3d9a49c9754f5d34.json\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/type#type-001",
+    "args": {
+      "cmd": "\"C:\\\\Program Files\\\\nodejs\\\\node.exe\" E:\\Arif\\micro-store\\cart-mf\\node_modules\\typescript\\bin\\tsc --project E:\\Arif\\micro-store\\cart-mf\\node_modules\\.federation\\tsconfig.c7722e290863218d3d9a49c9754f5d34.json"
+    },
+    "timestamp": 1786509881357
+  }
+}

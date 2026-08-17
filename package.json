@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "micro-store",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
