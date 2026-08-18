@@ -5,7 +5,7 @@ export default createModuleFederationConfig({
     remotes: {
         product_app: {
             name: "product_app",
-            entry: "http://localhost:5001/mf-manifest.json",
+            entry: "http://192.168.0.95:5001/mf-manifest.json",
         },
         cart_app: {
             name: "cart_app",

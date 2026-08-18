@@ -19,3 +19,65 @@
    pointer-events: none;
    z-index: 0;
  }
+.product-viewer {
+  --cloud-color: #0037a5;
+
+  position: relative;
+  overflow: hidden;
+
+  background:
+    /* radial-gradient(
+      ellipse at 20% 30%,
+      color-mix(in srgb, var(--cloud-color) 45%, white) 0%,
+      transparent 45%
+    ),
+    radial-gradient(
+      ellipse at 80% 20%,
+      color-mix(in srgb, var(--cloud-color) 35%, white) 0%,
+      transparent 40%
+    ),
+    radial-gradient(
+      ellipse at 50% 80%,
+      color-mix(in srgb, var(--cloud-color) 55%, white) 0%,
+      transparent 50%
+    ), */
+    linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--cloud-color) 70%, white),
+      color-mix(in srgb, var(--cloud-color) 40%, white)
+    );
+
+  background-size:
+    180% 180%,
+    160% 160%,
+    200% 200%,
+    100% 100%;
+
+  animation: cloudMove 15s ease-in-out infinite;
+}
+
+@keyframes cloudMove {
+  0% {
+    background-position:
+      0% 30%,
+      100% 20%,
+      30% 100%,
+      0% 0%;
+  }
+
+  50% {
+    background-position:
+      100% 60%,
+      0% 50%,
+      70% 20%,
+      100% 100%;
+  }
+
+  100% {
+    background-position:
+      0% 30%,
+      100% 20%,
+      30% 100%,
+      0% 0%;
+  }
+}
