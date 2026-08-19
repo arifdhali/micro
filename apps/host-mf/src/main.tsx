@@ -3,12 +3,13 @@ import { createRoot } from 'react-dom/client'
 import App from '@/App'
 import "./index.css"
 import "./App.css"
-import { AuthProvider } from './auth/AuthProvider'
+import AppProvider from '@/components/AppProvider'
+
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <AuthProvider>
+    <AppProvider>
       <App />
-    </AuthProvider>
+    </AppProvider>
   </StrictMode>,
 )

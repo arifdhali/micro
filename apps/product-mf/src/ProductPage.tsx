@@ -15,7 +15,8 @@ import {
 } from "lucide-react";
 import Product3DViewer from "./components/Product3DViewer";
 
-
+import { addToCart } from "@micro-store/store";
+import { useDispatch } from "react-redux";
 
 const products = [
   {
@@ -61,8 +62,12 @@ const brands = [
 ];
 
 export default function ProductPage() {
+  const dispatch = useDispatch();
+  const handleCart = () => {
 
+    dispatch(addToCart({ id: 1 }))
 
+  }
 
   return (
     <section className="py-24 max-w-container-max mx-auto   relative">
@@ -316,6 +321,7 @@ export default function ProductPage() {
                     </span>
 
                     <Button
+                      onClick={handleCart}
                       className="
                         bg-primary
                         px-4

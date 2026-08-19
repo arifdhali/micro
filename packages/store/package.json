@@ -1,0 +1,8 @@
+{
+  "name": "@micro-store/store",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {},
+  "exports": "./src/index.ts"
+}

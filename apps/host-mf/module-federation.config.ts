@@ -17,16 +17,14 @@ export default createModuleFederationConfig({
         react: {
             singleton: true,
         },
-
         "react-dom": {
             singleton: true,
         },
-
-        "react/": {
+        "react-redux": {
             singleton: true,
         },
 
-        "react-dom/": {
+        "@reduxjs/toolkit": {
             singleton: true,
         },
     }
