@@ -24,8 +24,6 @@ import {
   DropdownMenuContent,
   DropdownMenuGroup,
   DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 
@@ -142,9 +140,9 @@ export default function ProductPage() {
 
         </aside>
 
-         <div className="min-w-0 grow">
+        <div className="min-w-0 grow">
 
-           <div className="mb-6 flex items-center justify-between border-b border-white/5 pb-4">
+          <div className="mb-6 flex items-center justify-between border-b border-white/5 pb-4">
             <DropdownMenu>
               <DropdownMenuTrigger className={'w-50 h-10 text-base cursor-pointer flex items-center justify-between'} render={<Button variant="outline" />}>
                 Sort by: <ChevronDown size={12} />
@@ -159,7 +157,7 @@ export default function ProductPage() {
               </DropdownMenuContent>
             </DropdownMenu>
 
-             <div className="flex gap-2">
+            <div className="flex gap-2">
 
               <Button
                 onClick={() => setGridStyle('grid')}
