@@ -1,5 +1,5 @@
 export { store } from "./store";
 
 
-export { addToCart, removeFromCart, clearCart, } from "./cart/cartSlice";
+export { addToCart, removeFromCart, increaseToCart, decreaseToCart, clearCart } from "./cart/cartSlice";
 

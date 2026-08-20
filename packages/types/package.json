@@ -1,0 +1,7 @@
+{
+  "name": "@micro-store/types",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "exports": "./src/index.ts"
+}
