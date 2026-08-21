@@ -1,10 +1,20 @@
 model User {
-  id        Int      @id @default(autoincrement())
-  name      String
-  email     String   @unique
-  password  String
+  id            Int      @id @default(autoincrement())
+  name          String
+  email         String   @unique
+  password      String
+  role          UserRole @default(user)
+  visit_count   Int?     @default(0)
+  refresh_token String
+  status Boolean @default(true)
+
   createdAt DateTime @default(now())
   updatedAt DateTime @default(now())
 
   orders Order[]
+}
+
+enum UserRole {
+  user
+  admin
 }

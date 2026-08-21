@@ -1,0 +1,26 @@
+model Products {
+    id          Int    @id @default(autoincrement())
+    name        String
+    slug        String
+    sku         String
+    description String
+    short_description String?
+
+    price         Decimal @default(0.00)
+    compare_price Decimal @default(0.00)
+    stock         Int
+
+    category_id Int
+    image       String
+    status      ProductStatus @default(active)
+
+    createdAt DateTime @default(now())
+    updatedAt DateTime @default(now())
+
+    category Categories @relation(fields: [category_id], references: [id])
+}
+
+enum ProductStatus {
+    active
+    inactive
+}
