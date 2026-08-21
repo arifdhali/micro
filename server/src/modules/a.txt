@@ -1,1 +1,15 @@
  something that will share with user / admin
+
+
+ user
+
+login
+register
+forgot-password
+send otp
+verify otp
+confirm-password
+
+account
+view order list
+view order
