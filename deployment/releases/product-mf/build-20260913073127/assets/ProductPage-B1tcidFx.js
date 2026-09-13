@@ -1,0 +1,1 @@
+import{n as e,t}from"./ProductPage-CLUTgXQ4.js";export{t as ProductCard,e as default};

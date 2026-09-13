@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { ShoppingCart, Store, Trash, User2 } from 'lucide-react'
 import { Button } from '@/components/ui/button';
-import { Link, useLocation, useNavigate } from 'react-router';
+import { Link,  useNavigate } from 'react-router';
 import { APP_URL } from '@/router';
 import { useAuth } from '@/auth/AuthProvider';
 import { useDispatch, useSelector } from "react-redux"

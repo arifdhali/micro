@@ -18,7 +18,7 @@ import Product3DViewer from "./components/Product3DViewer";
 
 import { addToCart } from "@micro-store/store";
 import { useDispatch } from "react-redux";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -26,6 +26,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
+import axios from "axios";
 
 const products = [
   {
@@ -67,11 +68,33 @@ const categories = [
 
 
 export default function ProductPage() {
+useEffect(() => {
+  document.title = "Products MF";
+}, []);
+  useEffect(() => {
+    console.log("PRODUCT MF V2");
+    axios
+      .get("https://jsonplaceholder.typicode.com/photos?_limit=10")
+      .then((res) => {
+        console.log("PRODUCT MF AXIOS:", res.data);
+      });
+  }, []);
   const dispatch = useDispatch();
 
   const handleCart = (id: string) => {
     const item = products.find((item) => item.id == id);
-    dispatch(addToCart(item))
+    console.log(item)
+    const items = {
+      id: '1',
+      name: "test",
+      description: "test",
+      price: 2,
+      rating: 3,
+      quantity: 1,
+      image: 'afsdfas',
+      badge: 'fasdfa',
+    }
+    dispatch(addToCart(items))
   }
 
   const [gridStyle, setGridStyle] = useState<"grid" | "list">('grid');
@@ -208,7 +231,7 @@ type ProductCardProps = {
 
 export function ProductCard({ product, viewMode, handleCart, }: ProductCardProps) {
   const isList = viewMode === "list";
-  console.log(viewMode)
+  // console.log(viewMode)
 
   return (
     <Card

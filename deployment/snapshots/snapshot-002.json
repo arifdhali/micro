@@ -1,0 +1,9 @@
+{
+  "id": "snapshot-002",
+  "createdAt": "2026-09-13T07:31:56.856Z",
+  "applications": {
+    "host-mf": "build-20260913073127",
+    "product-mf": "build-20260913073127",
+    "cart-mf": "build-20260913073127"
+  }
+}

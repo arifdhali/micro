@@ -5,11 +5,11 @@ export default createModuleFederationConfig({
     remotes: {
         product_app: {
             name: "product_app",
-            entry: "http://192.168.0.95:5001/mf-manifest.json",
+            entry: "http://10.177.89.31:5001/mf-manifest.json",
         },
         cart_app: {
             name: "cart_app",
-            entry: "http://localhost:5002/mf-manifest.json",
+            entry: "http://10.177.89.31:5002/mf-manifest.json",
         }
     },
     dts: false,
@@ -26,6 +26,10 @@ export default createModuleFederationConfig({
 
         "@reduxjs/toolkit": {
             singleton: true,
+        },
+        axios: {
+            singleton: true,
+            requiredVersion: "^1.12.0",
         },
     }
 

@@ -14,5 +14,10 @@ export default createModuleFederationConfig({
         "react-dom": {
             singleton: true,
         },
+        axios: {
+            singleton: true,
+            requiredVersion: "^1.12.0",
+
+        },
     },
 })

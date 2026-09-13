@@ -14,13 +14,6 @@ export default createModuleFederationConfig({
         "react-dom": {
             singleton: true,
         },
-
-        "react/": {
-            singleton: true,
-        },
-
-        "react-dom/": {
-            singleton: true,
-        },
+       
     },
 })

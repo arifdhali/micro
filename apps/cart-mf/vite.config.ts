@@ -20,12 +20,14 @@ export default defineConfig({
     }
   },
   server: {
+    host: true,
     port: 5002,
     strictPort: true,
     cors: true,
   },
 
   preview: {
+    host: true,
     port: 5002,
     strictPort: true,
     cors: true,

@@ -6,6 +6,11 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "scripts": {
+    "deploy:local": "node scripts/deploy-local.mjs",
+     "rollback": "node scripts/rollback-local.mjs"
+
+  },
   "workspaces": [
     "apps/*",
     "packages/*"

@@ -9,8 +9,19 @@ import {
   Headset,
   BadgeCheck,
 } from "lucide-react";
+import { useEffect } from "react";
 import { Link } from "react-router";
+import axios from "axios";
+
 const HomePage = () => {
+
+  useEffect(() => {
+    axios
+      .get("https://jsonplaceholder.typicode.com/photos?_limit=5")
+      .then((res) => {
+        console.log("HHost MF AXIOS:", res.data);
+      });
+  }, []);
   return (
     <>
       <section className="relative w-full min-h-[80vh] flex items-center justify-center overflow-hidden pt-20 pb-20">
@@ -43,7 +54,7 @@ const HomePage = () => {
         <h2 className="font-headline-lg text-headline-md md:text-headline-lg text-on-surface mb-12">Select Category</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-gutter">
 
-          <Link to={APP_URL.product.url} className="group relative h-80 rounded overflow-hidden glass-panel flex items-end p-6 border border-white/5 hover:border-primary/50 transition-all duration-500" href="#">
+          <Link to={APP_URL.product.url} className="group relative h-80 rounded overflow-hidden glass-panel flex items-end p-6 border border-white/5 hover:border-primary/50 transition-all duration-500" >
             <div className="absolute inset-0 z-0 transition-transform duration-700 group-hover:scale-105">
               <div className="bg-cover bg-center w-full h-full opacity-40 group-hover:opacity-60 transition-opacity" data-alt="Close-up macro photography of high-end wireless over-ear headphones. The earcups feature a brushed gunmetal finish with intricate micro-perforations. A faint blue LED ring glows around the exterior shell. The setting is dark and moody, with soft, directional light revealing the premium textures of the leather earpads and metal headband, embodying a sophisticated tech noir style."
                 style={{
@@ -59,7 +70,7 @@ const HomePage = () => {
             </div>
           </Link>
 
-          <a className="group relative h-80 rounded overflow-hidden glass-panel flex items-end p-6 border border-white/5 hover:border-primary/50 transition-all duration-500" href="#">
+          <a className="group relative h-80 rounded overflow-hidden glass-panel flex items-end p-6 border border-white/5 hover:border-primary/50 transition-all duration-500" >
             <div className="absolute inset-0 z-0 transition-transform duration-700 group-hover:scale-105">
               <div className="bg-cover bg-center w-full h-full opacity-40 group-hover:opacity-60 transition-opacity" data-alt="A dramatic shot of a sleek, high-performance laptop partially opened in a dark environment. The keyboard is backlit with a vibrant neon green underglow. The chassis is a monolithic slab of dark matte aluminum. The lighting highlights the razor-thin profile and the sharp, engineered edges of the device, creating a sense of raw computing power and modern minimalist design."
                 style={{
@@ -75,7 +86,7 @@ const HomePage = () => {
             </div>
           </a>
 
-          <a className="group relative h-80 rounded overflow-hidden glass-panel flex items-end p-6 border border-white/5 hover:border-primary/50 transition-all duration-500" href="#">
+          <a className="group relative h-80 rounded overflow-hidden glass-panel flex items-end p-6 border border-white/5 hover:border-primary/50 transition-all duration-500" >
             <div className="absolute inset-0 z-0 transition-transform duration-700 group-hover:scale-105">
               <div className="bg-cover bg-center w-full h-full opacity-40 group-hover:opacity-60 transition-opacity" data-alt="A minimalist smart home hub device resting on a reflective black glass surface. The device is a dark, cylindrical monolith with a soft, pulsing ambient light ring at its base emitting a cool blue hue. The background is completely dark, drawing focus entirely to the illuminated device and its reflection, conveying a futuristic, integrated lifestyle."
                 style={{
@@ -100,7 +111,7 @@ const HomePage = () => {
               <h2 className="font-headline-lg text-headline-md md:text-headline-lg text-on-surface">Trending Tech</h2>
               <p className="font-body-md text-body-md text-on-surface-variant mt-2">High-performance gear curated for the vanguard.</p>
             </div>
-            <a className="hidden md:flex font-label-sm text-label-sm text-primary hover:text-primary-container items-center gap-1 uppercase tracking-widest transition-colors" href="#">
+            <a className="hidden md:flex font-label-sm text-label-sm text-primary hover:text-primary-container items-center gap-1 uppercase tracking-widest transition-colors" >
               View All <ChevronRight className="size-4" />
             </a>
           </div>

@@ -7,6 +7,8 @@ import {
 
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
+import { useEffect } from "react";
+import axios from "axios";
 
 const cartItems = [
   {
@@ -24,6 +26,20 @@ const cartItems = [
 ];
 
 export default function CartPage() {
+
+  useEffect(() => {
+    document.title = "Cart MF";
+  }, []);
+
+
+  useEffect(() => {
+    axios
+      .get("https://jsonplaceholder.typicode.com/photos?_limit=5")
+      .then((res) => {
+        console.log("CART MF AXIOS:", res.data);
+      });
+  }, []);
+
   const subtotal = cartItems.reduce(
     (total, item) =>
       total + item.price * item.quantity,

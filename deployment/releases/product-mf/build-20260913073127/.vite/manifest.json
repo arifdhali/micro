@@ -1,0 +1,204 @@
+{
+  "../../node_modules/@fontsource-variable/geist/files/geist-cyrillic-ext-wght-normal.woff2": {
+    "file": "assets/geist-cyrillic-ext-wght-normal-DjL33-gN.woff2",
+    "src": "../../node_modules/@fontsource-variable/geist/files/geist-cyrillic-ext-wght-normal.woff2"
+  },
+  "../../node_modules/@fontsource-variable/geist/files/geist-cyrillic-wght-normal.woff2": {
+    "file": "assets/geist-cyrillic-wght-normal-BEAKL7Jp.woff2",
+    "src": "../../node_modules/@fontsource-variable/geist/files/geist-cyrillic-wght-normal.woff2"
+  },
+  "../../node_modules/@fontsource-variable/geist/files/geist-latin-ext-wght-normal.woff2": {
+    "file": "assets/geist-latin-ext-wght-normal-DC-KSUi6.woff2",
+    "src": "../../node_modules/@fontsource-variable/geist/files/geist-latin-ext-wght-normal.woff2"
+  },
+  "../../node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2": {
+    "file": "assets/geist-latin-wght-normal-BgDaEnEv.woff2",
+    "src": "../../node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2"
+  },
+  "../../node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2": {
+    "file": "assets/geist-vietnamese-wght-normal-6IgcOCM7.woff2",
+    "src": "../../node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2"
+  },
+  "_ProductPage-CLUTgXQ4.js": {
+    "file": "assets/ProductPage-CLUTgXQ4.js",
+    "name": "ProductPage",
+    "imports": [
+      "_rolldown-runtime-B0Z9INg1.js",
+      "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react__loadShare__.js-C_UVjGId.js",
+      "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_2_dom_mf_1_client__loadShare__.js-Dc_59ufJ.js",
+      "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_2_dom__loadShare__.js-Cc6XzH_o.js",
+      "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_1_compiler_mf_2_runtime__loadShare__.js-B4231fd2.js",
+      "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_1_jsx_mf_2_runtime__loadShare__.js-BcmbOn1N.js",
+      "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__axios__loadShare__.js-GwoDWZ6t.js"
+    ],
+    "css": [
+      "assets/ProductPage-UZdwqyRR.css"
+    ]
+  },
+  "_ProductPage-UZdwqyRR.css": {
+    "file": "assets/ProductPage-UZdwqyRR.css",
+    "src": "_ProductPage-UZdwqyRR.css"
+  },
+  "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__axios__loadShare__.js-GwoDWZ6t.js": {
+    "file": "assets/_virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__axios__loadShare__.js-GwoDWZ6t.js",
+    "name": "_virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__axios__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-B0Z9INg1.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react__loadShare__.js-C_UVjGId.js": {
+    "file": "assets/_virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react__loadShare__.js-C_UVjGId.js",
+    "name": "_virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-B0Z9INg1.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_1_compiler_mf_2_runtime__loadShare__.js-B4231fd2.js": {
+    "file": "assets/_virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_1_compiler_mf_2_runtime__loadShare__.js-B4231fd2.js",
+    "name": "_virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_1_compiler_mf_2_runtime__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-B0Z9INg1.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_1_jsx_mf_2_runtime__loadShare__.js-BcmbOn1N.js": {
+    "file": "assets/_virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_1_jsx_mf_2_runtime__loadShare__.js-BcmbOn1N.js",
+    "name": "_virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_1_jsx_mf_2_runtime__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-B0Z9INg1.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_2_dom__loadShare__.js-Cc6XzH_o.js": {
+    "file": "assets/_virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_2_dom__loadShare__.js-Cc6XzH_o.js",
+    "name": "_virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_2_dom__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-B0Z9INg1.js",
+      "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react__loadShare__.js-C_UVjGId.js"
+    ]
+  },
+  "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_2_dom_mf_1_client__loadShare__.js-Dc_59ufJ.js": {
+    "file": "assets/_virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_2_dom_mf_1_client__loadShare__.js-Dc_59ufJ.js",
+    "name": "_virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_2_dom_mf_1_client__loadShare__.js",
+    "imports": [
+      "_rolldown-runtime-B0Z9INg1.js",
+      "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react__loadShare__.js-C_UVjGId.js",
+      "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_2_dom__loadShare__.js-Cc6XzH_o.js"
+    ]
+  },
+  "_dist-C_k7Jr4I.js": {
+    "file": "assets/dist-C_k7Jr4I.js",
+    "name": "dist",
+    "imports": [
+      "_vite-preload-helper-Czpn1I53.js"
+    ]
+  },
+  "_rolldown-runtime-B0Z9INg1.js": {
+    "file": "assets/rolldown-runtime-B0Z9INg1.js",
+    "name": "rolldown-runtime"
+  },
+  "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__product_app__remoteEntry-_hash_-yR5oK4ZT.js": {
+    "file": "assets/virtual_mf-REMOTE_ENTRY_ID___mfe_internal__product_app__remoteEntry-_hash_-yR5oK4ZT.js",
+    "name": "virtual_mf-REMOTE_ENTRY_ID___mfe_internal__product_app__remoteEntry-_hash_",
+    "imports": [
+      "_vite-preload-helper-Czpn1I53.js",
+      "_dist-C_k7Jr4I.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-localSharedImportMap:__mfe_internal__product_app__mf_owner__1",
+      "virtual:mf-exposes:__mfe_internal__product_app__remoteEntry-_hash_"
+    ]
+  },
+  "_virtual_mf-exposes___mfe_internal__product_app__remoteEntry-_hash_-DhMtu_yE.js": {
+    "file": "assets/virtual_mf-exposes___mfe_internal__product_app__remoteEntry-_hash_-DhMtu_yE.js",
+    "name": "virtual_mf-exposes___mfe_internal__product_app__remoteEntry-_hash_",
+    "imports": [
+      "_vite-preload-helper-Czpn1I53.js"
+    ],
+    "dynamicImports": [
+      "src/ProductPage.tsx"
+    ]
+  },
+  "_vite-preload-helper-Czpn1I53.js": {
+    "file": "assets/vite-preload-helper-Czpn1I53.js",
+    "name": "vite-preload-helper"
+  },
+  "index.html": {
+    "file": "assets/index-CJD3H8zI.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__product_app__remoteEntry-_hash_-DhMtu_yE.js",
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__product_app__remoteEntry-_hash_-yR5oK4ZT.js",
+      "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react__loadShare__.js-C_UVjGId.js",
+      "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_2_dom_mf_1_client__loadShare__.js-Dc_59ufJ.js",
+      "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_1_compiler_mf_2_runtime__loadShare__.js-B4231fd2.js",
+      "_ProductPage-CLUTgXQ4.js",
+      "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_1_jsx_mf_2_runtime__loadShare__.js-BcmbOn1N.js"
+    ],
+    "css": [
+      "assets/index--rmYue5k.css"
+    ],
+    "assets": [
+      "assets/geist-cyrillic-ext-wght-normal-DjL33-gN.woff2",
+      "assets/geist-cyrillic-wght-normal-BEAKL7Jp.woff2",
+      "assets/geist-vietnamese-wght-normal-6IgcOCM7.woff2",
+      "assets/geist-latin-ext-wght-normal-DC-KSUi6.woff2",
+      "assets/geist-latin-wght-normal-BgDaEnEv.woff2"
+    ]
+  },
+  "src/ProductPage.tsx": {
+    "file": "assets/ProductPage-B1tcidFx.js",
+    "name": "ProductPage",
+    "src": "src/ProductPage.tsx",
+    "isEntry": true,
+    "imports": [
+      "_ProductPage-CLUTgXQ4.js"
+    ]
+  },
+  "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__product_app__remoteEntry-_hash_": {
+    "file": "assets/remoteEntry-D8I6hONu.js",
+    "name": "remoteEntry",
+    "src": "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__product_app__remoteEntry-_hash_",
+    "imports": [
+      "_virtual_mf-REMOTE_ENTRY_ID___mfe_internal__product_app__remoteEntry-_hash_-yR5oK4ZT.js"
+    ]
+  },
+  "virtual:mf-exposes:__mfe_internal__product_app__remoteEntry-_hash_": {
+    "file": "assets/virtualExposes-Vrat5mot.js",
+    "name": "virtualExposes",
+    "src": "virtual:mf-exposes:__mfe_internal__product_app__remoteEntry-_hash_",
+    "imports": [
+      "_virtual_mf-exposes___mfe_internal__product_app__remoteEntry-_hash_-DhMtu_yE.js"
+    ]
+  },
+  "virtual:mf-localSharedImportMap:__mfe_internal__product_app__mf_owner__1": {
+    "file": "assets/_virtual_mf-localSharedImportMap___mfe_internal__product_app__mf_owner__1-gzwsnaTy.js",
+    "name": "_virtual_mf-localSharedImportMap___mfe_internal__product_app__mf_owner__1",
+    "src": "virtual:mf-localSharedImportMap:__mfe_internal__product_app__mf_owner__1",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vite-preload-helper-Czpn1I53.js",
+      "_dist-C_k7Jr4I.js"
+    ],
+    "dynamicImports": [
+      "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react__loadShare__.js-C_UVjGId.js",
+      "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_1_compiler_mf_2_runtime__loadShare__.js-B4231fd2.js",
+      "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_1_jsx_mf_2_runtime__loadShare__.js-BcmbOn1N.js",
+      "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_2_dom__loadShare__.js-Cc6XzH_o.js",
+      "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__react_mf_2_dom_mf_1_client__loadShare__.js-Dc_59ufJ.js",
+      "__virtual_mf___mfe_internal__product_app__mf_owner__1__loadShare__axios__loadShare__.js-GwoDWZ6t.js"
+    ]
+  },
+  "virtual:mf:__mfe_internal__product_app__mf_owner__1__H_A_I__hostAutoInit__H_A_I__.js": {
+    "file": "assets/hostInit-DDyh5I2f.js",
+    "name": "hostInit",
+    "src": "virtual:mf:__mfe_internal__product_app__mf_owner__1__H_A_I__hostAutoInit__H_A_I__.js",
+    "imports": [
+      "_vite-preload-helper-Czpn1I53.js"
+    ],
+    "dynamicImports": [
+      "virtual:mf-REMOTE_ENTRY_ID:__mfe_internal__product_app__remoteEntry-_hash_",
+      "virtual:mf-localSharedImportMap:__mfe_internal__product_app__mf_owner__1"
+    ]
+  }
+}

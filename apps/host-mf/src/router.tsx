@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router";
 import StoreLayout from "@/layouts/StoreLayout";
 import HomePage from "@/pages/HomePage";
 import ProductPage from "@/pages/ProductPage";
+import CartPage from "@/pages/CartPage";
 import AuthLayout from "@/layouts/AuthLayout";
 import Login from "@/pages/Login";
 import NotFoundPage from "@/pages/NotFoundPage";
@@ -16,6 +17,9 @@ export const APP_URL = {
     },
     product: {
         url: "/products",
+    },
+    cart: {
+        url: "/cart"
     },
     category: {
         url: "/category"
@@ -45,7 +49,15 @@ export const router = createBrowserRouter([
                     <RemoteBoundary name="Product MF">
                         <ProductPage />
                     </RemoteBoundary>
-            }, {
+            },
+            {
+                path: APP_URL.cart.url,
+                element:
+                    <RemoteBoundary name="CART MF">
+                        <CartPage />
+                    </RemoteBoundary>
+            },
+            {
                 element: <RequiredAuth />,
                 children: [
                     {

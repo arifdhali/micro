@@ -1,0 +1,1 @@
+import{t as e}from"./virtual_mf-exposes___mfe_internal__cart_app__remoteEntry-_hash_-BhQk8A9-.js";export{e as default};
